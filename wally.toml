@@ -1,7 +1,11 @@
 [package]
 name = "grunionnn/networker"
+description = "Remote Event and Remote function wrapper."
+Authors = ["Grunion"]
+license = "MIT"
 version = "0.3.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+exclude = ["sourcemap.json"]
 
 [dependencies]

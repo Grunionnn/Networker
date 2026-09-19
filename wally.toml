@@ -1,0 +1,8 @@
+[package]
+name = "grunionnn/networker"
+version = "1.0.1"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+ratelimiter = "grunionnn/ratelimiter@1.0.0"

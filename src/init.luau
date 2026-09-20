@@ -192,6 +192,7 @@ function Networker.FireServer(self: Networker, ...: any): ()
 	)
 	assert(RunService:IsServer() == false, "FireServer can only be called on the client")
 
+	local remote = self.Remote
 	remote:FireServer(...)
 end
 

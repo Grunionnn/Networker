@@ -1,12 +1,12 @@
 --!strict
-const ReplicatedStorage = game:GetService("ReplicatedStorage")
-const RunService = game:GetService("RunService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
 
-const Packages = script.Parent
-const RateLimiter = require(Packages.ratelimiter)
+local Packages = script.Parent
+local RateLimiter = require(Packages.ratelimiter)
 type RateLimiterInstance = typeof(RateLimiter.new(1, "HardCap"))
 
-const isServer = RunService:IsServer()
+local isServer = RunService:IsServer()
 
 local Networker = {}
 Networker.__index = Networker
